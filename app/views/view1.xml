@@ -1,5 +1,7 @@
 <Alloy>
 	<View id="view1">
-		<Label>View 1</Label>
+		<Button id="remove" top="10" onClick="removeListener">Remove Listener</Button>
+		<Label id="label" top="30">View1</Label>
+		<Require id="requiredController" src="CustomView"/>
 	</View>
 </Alloy>
